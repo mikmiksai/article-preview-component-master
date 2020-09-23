@@ -115,6 +115,7 @@ body {
 
 @media screen and (min-width: 900px) {
   .card__img {
+    max-width: 300px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 10px;
   }
@@ -242,8 +243,8 @@ body {
     position: absolute;
     bottom: 0;
     left: 50%;
-    -webkit-transform: translate(-50%, 20px);
-            transform: translate(-50%, 20px);
+    -webkit-transform: translate(-50%, 18px);
+            transform: translate(-50%, 18px);
   }
 }
 
